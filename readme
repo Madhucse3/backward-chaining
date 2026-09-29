@@ -1,0 +1,49 @@
+# backward-# Unit 4 - Backward Chaining
+
+## Topic
+
+Rule-Based Expert System for Student Academic Guidance.
+
+## About
+
+This program uses Backward Chaining to check whether a student is eligible for placement.
+
+## Facts
+
+* GoodAcademicPerformance
+* ProgrammingSkills
+* CommunicationSkills
+* PlacementTraining
+
+## Rule
+
+If all the above conditions are true, the student is:
+
+`EligibleForPlacement`
+
+## Working
+
+The program starts with the goal `EligibleForPlacement` and checks the conditions needed to prove it. It then checks whether each condition is present in the facts.
+
+## Output
+
+```text
+Trying to prove: EligibleForPlacement
+Fact found: GoodAcademicPerformance
+Fact found: ProgrammingSkills
+Fact found: CommunicationSkills
+Fact found: PlacementTraining
+
+Final Conclusion: Student is Eligible for Placement
+```
+
+## How to Run
+
+```bash
+python task4.py
+```
+
+## Language
+
+Python
+chaining
